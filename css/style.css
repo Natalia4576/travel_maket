@@ -1,0 +1,377 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_logo_navigation{
+    display: flex;
+}
+.header_nav{
+    width: 800px;
+    height: 20px;
+    margin-top: 80px;
+    margin-left: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav a{
+    font-size: 21px;
+    color: #BEBDBF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding: 20px;
+    transition: all 300ms ease-out;
+}
+a{
+    text-decoration: none;
+}
+.header_nav a:hover{
+  color: #3984F3;  
+}
+.header_logo{
+    margin-top: 60px;
+    margin-left: 70px; 
+}
+.header_top_content h6{
+    margin-left: 387px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    color: black;
+    opacity: 0.5;
+}
+.header_top{
+    display: flex;
+}
+.header_top h3{
+    font-family: 'Rock Salt', cursive;
+    font-size: 54px;
+    line-height: 122px;
+    margin-left: 70px;
+    margin-top: 80px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);  
+}
+.header_top p{
+    font-size: 20px;
+    margin-left: 70px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.header_top img{
+    margin-top: 70px;
+    margin-left: 55px;
+}
+.about_us{
+    padding-top: 70px;
+}
+.about_us hr{
+    border: none; 
+    background-color: #3984F3; 
+    color: #3984F3; 
+    height: 8px; 
+    width: 100px;
+}
+.about_us h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.about_us_text_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 40px;
+}
+.about_us_text_2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+}
+.about_us{
+    padding-top: 70px;
+}
+.travel hr{
+    border: none; 
+    background-color: #3984F3; 
+    color: #3984F3; 
+    height: 8px; 
+    width: 100px;
+}
+.travel h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+.travel_text_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 40px;
+}
+.travel_text_2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+}
+.main_img{
+    width: 100%;
+    margin-top: 70px;
+}
+.main_img_1{
+    width: 100%;
+    margin-top: -900px;
+}
+.main_img_2{
+    width: 49%;
+    margin-top: -900px;
+}
+.main_img_3{
+    width: 49%;
+    margin-left: 592px;
+    margin-top: -900px;
+}
+.quotes{
+    margin-top: 70px;
+}
+.quotes h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    height: 130px;
+    padding-top: 100px;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 62%, rgba(255,255,255,0.9475140397956058) 99%);
+}
+.quotes hr{
+    border: none; 
+    background-color: #3984F3; 
+    color: #3984F3; 
+    height: 8px; 
+    width: 100px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 6;
+}
+.quotes_text{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 140px;
+}
+.quotes_text_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+.quotes_text_2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+.quotes_content{
+    width: 690px;
+    position: relative;
+    border: 3px solid #3984F3;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 690px;
+    top: -90px;
+}
+.quotes_content_img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.quotes_human_title{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    line-height: 40px;
+}
+.quotes_human_title_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    line-height: 40px;
+}
+.quotes_human_subtitle_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+}
+.quotes_human_subtitle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.footer{
+    background-image: url(../img/top-view-white-toy-plane-map\ 1.png);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+.footer_nav{
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_nav a{
+    font-size: 23px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding: 20px;
+    transition: all 300ms ease-out;
+}
+.footer_nav a:hover{
+    color: #3984F3;
+}
+.social_network{
+    width: 340px;
+    position: relative;
+    top: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#slider { /*положение слайдера*/
+    position: relative;
+	text-align: center;
+    top: 10px;
+}
+
+#slider{ /*центровка слайдера*/
+	margin: 0 auto;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+    width: 690px;
+    height: 690px;
+    border-radius: 100%;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
+
+article img{ /*размер изображений слайдера*/
+	width: 100%;
+}
+
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+	max-width: 690px; /*максимальнная длинна*/
+   
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+	margin-left: -400%;
+}
+
+#controls{ /*положение блока всех управляющих элементов*/
+	margin: -50% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#active label{ /*стиль отдельного переключателя*/
+	display: inline-block; /*расположение в строку*/
+	width: 50px;
+	height: 6px;
+	background: #bbb;
+    margin-left: 10px;
+}
+
+#active{ /*расположение блока с переключателями*/
+	margin: 23% 0 0;
+	text-align: center;
+}
+
+#active label:hover{ /*поведение чекбокса при наведении*/
+	background: #76c8ff;
+	border-color: #777 !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+	background: #18a3dd;
+	border-color: #18a3dd !important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+	opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
+}
