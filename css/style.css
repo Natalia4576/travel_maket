@@ -261,6 +261,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 44%, rgba(255,255,255,1)
     position: relative;
     top: 130px;
     margin: 0 auto;
+    left: 44px;
     display: flex;
     justify-content: space-between;
 }
@@ -374,4 +375,16 @@ label, a{ /*при наведении на стрелки или переклю�
 
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
+}
+.social_network_facebook_1{
+    right: 44px;
+    position: relative;
+    opacity: 0;
+}
+.social_network_facebook_1:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.social_network_facebook_1:not(:hover){
+	transition: 0.5s;
 }
