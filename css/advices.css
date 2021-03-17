@@ -1,0 +1,145 @@
+.header_top_img{
+    position: relative;
+    top: 20px;
+}
+.header_nav_item:nth-child(3){
+    border: 3px solid #FFB800;
+    border-radius: 10px;
+    transform: skewX(-20deg);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.header_nav_item:nth-child(3) a{
+    color: #FFB800;
+    line-height: 39px;
+    transform: skewX(20deg);
+}
+.header_nav_item:nth-child(4){
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.header_nav_item:nth-child(4) a{
+    color: #BEBDBF;
+}
+.header_nav a:hover{
+    color: #FFB800;
+}
+.header_top_content_button{
+    width: 120px;
+    border-radius: 5px;
+    background: #FFB800;
+    margin-left: 70px;
+    margin-top: 60px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header_top_content_button_text{
+
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.checklist{
+    padding-top: 70px;
+}
+.checklist hr{
+    border: none; 
+    background-color: #3984F3; 
+    color: #3984F3; 
+    margin-top: 70px;
+    height: 8px; 
+    width: 100px;
+}
+.checklist h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.checklist_text_1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 50px;
+}
+.checklist_content{
+    display: flex;
+    width: 850px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.checklist_content_item{
+    width: 270px;
+    height: 540px;
+    background-image:  url(../img/Aviabilety.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.25));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../img/Aviabilety.jpg);
+}
+.checklist_content_item:nth-child(2){
+    height: 400px;
+    width: 220px;
+}
+.checklist_content_item:nth-child(8){
+    height: 360px;
+    width: 220px;
+    margin-top: -135px;
+}
+.checklist_content_item:nth-child(7){
+    opacity: 0;
+}
+.checklist_content_item:nth-child(9){
+    opacity: 0;
+}
+.checklist_content_item:nth-child(3){
+    height: 490px;
+
+}
+.checklist_content_item:nth-child(6){
+    margin-top: -5px;
+    height: 640px;
+}
+.checklist_content_item:nth-child(4){
+    margin-top: 45px;
+    height: 470px;
+}
+.checklist_content_item:nth-child(5){
+    margin-top: -95px;
+    width: 220px;
+}
+.checklist_content_item li:before {
+    content: "\f0c8";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 4px;
+    left: -26px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    color: black;
+  }
+.li_text{
+    font-size: 15px;
+    line-height: 17px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.checklist_content_item_text{
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.checklist_content_item li{
+    list-style-type: none;
+}
