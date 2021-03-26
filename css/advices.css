@@ -27,6 +27,29 @@
 .header_nav a:hover{
     color: #FFB800;
 }
+.footer_nav_item:nth-child(4) a{
+    color: black;
+}
+.footer_nav_item:nth-child(4){
+    border: none;
+}
+.footer_nav_item a:hover{
+    color: #FFB800;
+}
+.footer_nav_item:nth-child(3) a{
+    color: #FFB800;
+    transform: skewX(20deg);
+    line-height: 39px;
+}
+.footer_nav_item:nth-child(3){
+    border: 3px solid #FFB800;
+    border-radius: 10px;
+    transform: skewX(-20deg);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
 .header_top_content_button{
     width: 120px;
     border-radius: 5px;
@@ -51,11 +74,11 @@
 }
 .checklist hr{
     border: none; 
-    background-color: #3984F3; 
-    color: #3984F3; 
+    background-color: #FFB800; 
+    color: #FFB800; 
     margin-top: 70px;
     height: 8px; 
-    width: 100px;
+    width: 90px;
 }
 .checklist h3{
     font-family: 'Red Hat Text', sans-serif;
@@ -142,4 +165,65 @@
 }
 .checklist_content_item li{
     list-style-type: none;
+}
+.advices{
+    margin-top: -235px;
+    padding-bottom: 80px;
+}
+.advices_sub{
+    border: none; 
+    background-color: #FFB800; 
+    color: #FFB800; 
+    margin-top: 70px;
+    height: 8px; 
+    width: 90px;
+}
+.advices h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.advices_content{
+    display: flex;
+}
+.advices_item{
+    width: 600px;
+}
+.advices_item h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+}
+.advices_item p{
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    width: 500px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+.advices_item_line_1{
+    border: none; 
+    background-color: #FFB800; 
+    color: #FFB800; 
+    margin-top: 70px;
+    height: 7px; 
+    width: 600px;
+}
+.advices_item_line_2{
+    border: none; 
+    background-color: #FFB800; 
+    color: #FFB800; 
+    height: 7px; 
+    width: 600px;
+}
+.triangle{
+    width: 500px;
+    margin-left: 100px;
+}
+.triangle_1{
+    width: 500px;
+    margin-right: 100px;
 }
