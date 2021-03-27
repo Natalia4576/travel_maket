@@ -1,0 +1,158 @@
+.header_nav_item:nth-child(2){
+    border: 3px solid #53B48D;
+    border-radius: 10px;
+    transform: skewX(-20deg);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.header_nav_item:nth-child(2) a{
+    color: #53B48D;
+    line-height: 39px;
+    transform: skewX(20deg);
+}
+.header_nav_item:nth-child(3){
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.header_nav_item:nth-child(3) a{
+    color: #BEBDBF;
+}
+.header_nav_item:nth-child(4){
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.header_nav_item:nth-child(4) a{
+    color: #BEBDBF;
+}
+.header_nav a:hover{
+    color: #53B48D;
+}
+.header_top_img{
+    margin-left: 5px;
+    margin-top: 70px;
+}
+.countries_trip{
+    padding-top: 70px;
+}
+.countries_trip hr{
+    border: none; 
+    background-color: #53B48D; 
+    color: #53B48D; 
+    margin-top: 50px;
+    height: 8px; 
+    width: 90px;
+}
+.countries_trip h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.countries_trip_text{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 50px;
+}
+.services_prices{
+    background-image: url(../img/sunset-pool.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 170px;
+}
+.services_prices_item{
+    width: 340px;
+    background: white;
+    height: 460px;
+    border-radius: 9px;
+    border: 2px solid black;
+    margin-left: 80px;
+}
+.services_prices_item:nth-child(2){
+    margin-left: 20px;
+}
+.services_prices_item:nth-child(3){
+    margin-left: 20px;
+}
+.services_prices_item_img{
+    width: 340px;
+    height: 260px;
+    border-radius: 9px;
+}
+.services_prices_item_subtitle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.price{
+    display: inline-block;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    margin-left: 103px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.price span{
+    font-size: 17px;
+}
+.services_prices_item_text{
+    margin-left: 25px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 15px;
+    width: 240px;
+    display: inline-block;
+    margin-top: -5px;
+}
+.time_trip{
+    display: inline-block;
+}
+.time_trip p{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14.8px;
+    line-height: 5px;
+    text-align: right;
+}
+.services_prices_item hr{
+    border: none; 
+    background-color: #F5F5F5; 
+    color: #F5F5F5; 
+    height: 7px; 
+    margin-top: -2px;
+    width: 340px;
+}
+.rating_block{
+    display: flex;
+}
+.rating_text{
+    margin-left: 25px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16.6px;
+}
+.rating_block_stars{
+    margin-left: 25px;
+    display: flex;
+}
+.services_prices_item_button{
+    width: 90px;
+    height: 25px;
+    margin-left: 54px;
+    margin-top: 15px;
+    background: #53B48D;
+    border-radius: 5px;
+}
+.services_prices_item_button_text{
+    color: white;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    margin-top: 3px;
+    text-align: center;
+}
